@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 import requests
 
-html_path = 'https://github.com/Blandalytics/sp_roundup_spec_sheets/blob/main/7_1_25_spec_sheet.html'
+html_path = 'https://github.com/Blandalytics/sp_roundup_spec_sheets/blob/main/7_1_25_spec_sheet.html?raw=true'
 
-with open(html_path,'r') as f: 
-    html_data = f.read()
+# with open(html_path,'r') as f: 
+#     html_data = f.read()
 
-st.html(html_data)
+st.html(html_path)
